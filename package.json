@@ -1,0 +1,33 @@
+{
+  "name": "nor-json-file",
+  "version": "0.0.1",
+  "description": "JSON file editing with transactions",
+  "main": "src/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Sendanor/nor-json-file.git"
+  },
+  "keywords": [
+    "json",
+    "transaction",
+    "file"
+  ],
+  "dependencies": {
+    "q": "*",
+    "nor-is": "*",
+    "nor-fs": "*",
+    "json-diff-patch": "git://github.com/Sendanor/jsondiff-js.git#master",
+    "json-patch": "*"
+  },
+  "author": "Jaakko-Heikki Heusala <jheusala@iki.fi>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sendanor/nor-json-file/issues"
+  }
+}
