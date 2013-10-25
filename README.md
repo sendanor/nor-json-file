@@ -1,4 +1,4 @@
 nor-json-file
 =============
 
-JSON file editing with transactions
+Prototype of JSON file editing with JSON diff based transactions.
